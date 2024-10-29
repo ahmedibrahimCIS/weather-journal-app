@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body{
+    background: url('sky.jfif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #232f55;
+}
+.entry {
+    background: rgba(60, 72, 111, 0.06);
+    margin-left: 1em;
+    width: 60%;
+}
+.entry span {
+    color: #2444aa;
+}
+
+.entry p {
+    color: #062657;
+    padding: 0.5em;
+    width: 10em;
+    line-height: 2rem;
+    word-wrap: break-word;   
+}
+#app{
+    width:30%;
+    height:75vh;
+    padding:25px;
+    margin:15px;
+    text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color:#000;
+  transform: translate(90%,35px);
+  border: 0;
+  border-radius: 25px;
+}
+.holder_headline{
+    text-align: center;
+    padding:0;
+    margin:15px;
+    color: #232f55;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    display:block;
+    font-size: 1.4rem;
+    color: #08374d;
+    margin-top: 0.6em;
+    margin-right: 5px;
+    float: left;
+}
+
+input{
+    display:block;
+    width: 10em;
+    background-color: rgba(87, 153, 197, 0.87);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5em;
+    margin-left: 45px;
+    color: #02091f;
+
+}
+textarea{
+    background-color: rgba(87, 153, 197, 0.87);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    resize: none;
+    border-radius: 25px;
+    width: 13em;
+    height: 8em;
+    padding: 0.5em;
+    color: #02091f;
+}
+.holder_zip{
+    display: block;
+    text-align: center;
+    padding:10px;
+    margin:5px;
+}
+.holder_feel{
+    text-align: center;
+    padding:10px;
+    margin:5px;
+}
+button {
+    width: 6em;
+    height: 2em;
+    background: #040e4e;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    -webkit-box-shadow: 2px 4px 5px #444;
+            box-shadow: 2px 4px 5px #444;
+    margin-top: 0.75em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #221fbe;
+}
+
+/* Style for small screen */
+@media only screen and (max-width: 44em) {
+    main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .entry {
+        min-height: 10em;
+        margin-top: 1.5em;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        margin-top: 1em;
+    }
+
+    h2 {
+        padding: 0.4em;
+        font-size: 1.4rem;
+    }
+
+    button {
+        margin: 0.5em auto;
+        display: block;
+    }
+
+}
+
+.page__footer {
+    padding: 3em;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
