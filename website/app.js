@@ -1,6 +1,5 @@
-/* Global Variables */
-const baseURL = 'https://api.openweathermap.org/data/2.5/weather?zip=';
-const apiKey = '&APPID=e523a9f0a38936ed1f1566449821b9f1&units=metric';
+const baseURL = process.env.BASE_URL;
+const apiKey = process.env.API_KEY;
 
 const date = document.getElementById('date');
 const temp = document.getElementById('temp');
